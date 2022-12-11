@@ -636,19 +636,49 @@ img {
 .modal-form {
    padding: 72px 24px 24px 24px;
 }
+.form {
+   margin: 0;
+}
 .modal-title {
+   padding-bottom: 16px;
+
    font-size: 16px;
    font-weight: 700;
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
 .modal-field {
+   display: flex;
+   flex-direction: column-reverse;
 }
 .modal-input {
+   padding: 10px 0px 10px 19px;
 }
 .modal-label {
+   padding: 8px 0px 4px 0px;
+
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.01em;
+   color: var(--subtle-color);
 }
 .modal-checkbox {
+   padding: 16px 0px 24px 0px;
+}
+.modal-button-button {
+  text-align: center;
 }
 .modal-button-send {
+   padding: 16px 32px;
+   width: 170px;
+
+   font-weight: 700;
+   line-height: 1.18;
+   letter-spacing: 0.04em;
+
+   color: #ffffff;
+   border-radius: 4px;
+   background-color: var(--primery-band);
+   border: 1px solid transparent;
+  
 }
