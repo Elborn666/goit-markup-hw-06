@@ -646,11 +646,13 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
-.form {
-}
 .modal-field {
 }
 .modal-input {
 }
 .modal-label {
+}
+.modal-checkbox {
+}
+.modal-button-send {
 }
