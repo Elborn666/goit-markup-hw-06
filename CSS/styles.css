@@ -650,7 +650,7 @@ img {
 }
 .modal-title {
    padding-bottom: 16px;
-
+   color: var(--title-color);
    font-size: 16px;
    font-weight: 700;
    line-height: 1.5;
@@ -662,6 +662,8 @@ img {
 }
 .modal-input {
    padding: 10px 0px 10px 19px;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   border-radius: 4px;
 }
 .modal-label {
    padding: 8px 0px 4px 0px;
