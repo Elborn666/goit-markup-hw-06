@@ -346,37 +346,38 @@
             <div class="modal-form">
                 <h2 class="modal-title">Leave your contacts and we will call you back</h2>
                 <form class="form">
-                    <div class="modal-field">
-                        <input type="text" name="name" id="name" class="modal-input" required pattern="^[a-zA-Za-яА-Я]" minlength="4">
-                        <label for="name" class="modal-label">Name</label>
-                        <svg class="form-icon">
+                    <div class="modal-form-field">
+                        <input type="text" name="name" id="name" class="modal-form-input" required pattern="^[a-zA-Za-яА-Я]" minlength="4">
+                        <label for="name" class="modal-form-label">Name</label>
+                        <svg class="modal-form-icon">
                             <use href="./images/spriteicons.svg#icon-person"></use>
                         </svg>
                     </div>
-                    <div class="modal-field">
-                        <input type="tel" name="phone" id="phone" class="modal-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
-                        <label for="phone" class="modal-label">Phone</label>
-                        <svg class="form-icon">
+                    <div class="modal-form-field">
+                        <input type="tel" name="phone" id="phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+                        <label for="phone" class="modal-form-label">Phone</label>
+                        <svg class="modal-form-icon">
                             <use href="./images/spriteicons.svg#icon-phone"></use>
                         </svg>
                     </div>
-                    <div class="modal-field">
-                        <input type="email" name="mail" id="mail" class="modal-input">
-                        <label for="mail" class="modal-label">Email</label>
-                        <svg class="form-icon">
+                    <div class="modal-form-field">
+                        <input type="email" name="mail" id="mail" class="modal-form-input">
+                        <label for="mail" class="modal-form-label">Email</label>
+                        <svg class="modal-form-icon">
                             <use href="./images/spriteicons.svg#icon-email"></use>
                         </svg>
                     </div>
-                    <div class="modal-field">
-                        <input type="text" name="comment" id="comment" rows="2" class="modal-input">
-                        <label for="comment" class="modal-label">Comment</label>
+                    <div class="modal-form-textarea">
+                        <input type="text" name="comment" id="comment" rows="2" class="modal-form-input-textarea" placeholder="Text input">
+                        <label for="comment" class="modal-form-label-textarea">Comment</label>
                     </div>
-                    <div class="modal-checkbox">
-                        <input type="checkbox" name="policy" id="policy" class="modal-input">
-                        <label for="policy" class="modal-label">I accept the terms and conditions of the <a href="#" class="modal-policy">Privacy Policy</a></label>
+                    <div class="modal-form-checkbox">
+                        <input type="checkbox" name="policy" id="policy" class="modal-form-input-checkbox visuall-hidden">
+                        <label for="policy" class="modal-form-label-checkbox">I accept the terms and conditions of the &nbsp<a href="#" class="modal-policy"><span>Privacy Policy</span></a></label>
+                        <span class="modal-form-checkbox-icon"></span>
                     </div>
-                    <div class="modal-button-button">
-                        <button class="modal-button-send" type="submit">Send</button>
+                    <div class="modal-form-button">
+                        <button class="modal-form-button-send" type="submit">Send</button>
                     </div>
                 </form>
             </div>
