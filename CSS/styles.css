@@ -535,7 +535,9 @@ img {
    width: 24px;
    height: 24px;
 }
-.form {
+.footer-form {
+   display: flex;
+   flex-direction: column;
    margin-left: 80px;
 }
 .form-title {
@@ -546,11 +548,6 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #ffffff;
-}
-.form-field {
-   display: flex;
-   flex-direction: column;
-   margin-left: 80px;
 }
 .form-all {
    display: flex;
